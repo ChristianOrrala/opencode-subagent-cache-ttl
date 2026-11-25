@@ -1,0 +1,13 @@
+{
+  "name": "opencode-subagent-cache-ttl",
+  "version": "0.1.0",
+  "description": "OpenCode plugin: 5-minute Anthropic prompt-cache lifetime for subagent sessions, 1 hour (or whatever you set) for main sessions",
+  "type": "module",
+  "main": "./index.js",
+  "exports": { ".": "./index.js" },
+  "files": ["index.js", "lib.js"],
+  "scripts": { "test": "node --test test/" },
+  "keywords": ["opencode", "plugin", "prompt-cache", "anthropic", "claude", "subagent"],
+  "license": "MIT",
+  "engines": { "node": ">=20" }
+}
